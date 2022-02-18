@@ -13,6 +13,7 @@
 		3F23BFC527BF1B03009490BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F23BFC427BF1B03009490BB /* Preview Assets.xcassets */; };
 		3F23BFD027BF1B04009490BB /* API_HackwichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23BFCF27BF1B04009490BB /* API_HackwichTests.swift */; };
 		3F23BFDB27BF1B04009490BB /* API_HackwichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23BFDA27BF1B04009490BB /* API_HackwichUITests.swift */; };
+		3F23BFE927BF264F009490BB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23BFE827BF264F009490BB /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F23BFD627BF1B04009490BB /* API HackwichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API HackwichUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F23BFDA27BF1B04009490BB /* API_HackwichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_HackwichUITests.swift; sourceTree = "<group>"; };
 		3F23BFDC27BF1B04009490BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F23BFE827BF264F009490BB /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3F23BFBD27BF1AFD009490BB /* API_HackwichApp.swift */,
 				3F23BFBF27BF1AFD009490BB /* ContentView.swift */,
+				3F23BFE827BF264F009490BB /* SwiftyJSON.swift */,
 				3F23BFC127BF1B03009490BB /* Assets.xcassets */,
 				3F23BFC627BF1B03009490BB /* Info.plist */,
 				3F23BFC327BF1B03009490BB /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F23BFE927BF264F009490BB /* SwiftyJSON.swift in Sources */,
 				3F23BFC027BF1AFD009490BB /* ContentView.swift in Sources */,
 				3F23BFBE27BF1AFD009490BB /* API_HackwichApp.swift in Sources */,
 			);
